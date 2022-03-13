@@ -5,13 +5,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AbbyWeb.Pages.Categories
 {
-    public class EditModel : PageModel
+    public class DeleteModel : PageModel
     {
         private readonly ApplicationDbContext _db;
         [BindProperty]
         public Category Category{ get; set; }
 
-        public EditModel(ApplicationDbContext db)    //DI
+        public DeleteModel(ApplicationDbContext db)    //DI
         {
             _db = db;
         }
@@ -25,13 +25,10 @@ namespace AbbyWeb.Pages.Categories
 
         public async Task<IActionResult> OnPost()
         {
-            if (Category.Name == Category.DisplayOrder.ToString())
+            var categoryFromDb = _db.Category.Find(Category.Id);
+            if (categoryFromDb != null)   //check post isValid (blank => not valid)
             {
-                ModelState.AddModelError("Category.Name", "The DisplayOrder cannot exactly match the Name,");
-            }
-            if (ModelState.IsValid)   //check post isValid (blank => not valid)
-            {
-                _db.Category.Update(Category);
+                _db.Category.Remove(categoryFromDb);
                 await _db.SaveChangesAsync();
                 return RedirectToPage("Index");
             }

@@ -1,0 +1,12 @@
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\bin\Debug\net6.0\Abby.Utility.deps.json
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\bin\Debug\net6.0\Abby.Utility.dll
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\bin\Debug\net6.0\Abby.Utility.pdb
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.csproj.AssemblyReference.cache
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.AssemblyInfoInputs.cache
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.AssemblyInfo.cs
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.csproj.CoreCompileInputs.cache
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.dll
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\refint\Abby.Utility.dll
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.pdb
+C:\Users\uchihayu\source\repos\Abby\Abby.Utility\obj\Debug\net6.0\ref\Abby.Utility.dll

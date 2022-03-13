@@ -1,0 +1,17 @@
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.deps.json
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.dll
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.pdb
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Models.dll
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Models.pdb
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.csproj.AssemblyReference.cache
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.AssemblyInfoInputs.cache
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.AssemblyInfo.cs
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.csproj.CopyComplete
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.dll
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\refint\Abby.DataAccess.dll
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.pdb
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\ref\Abby.DataAccess.dll
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.runtimeconfig.json
+C:\Users\uchihayu\source\repos\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.genruntimeconfig.cache

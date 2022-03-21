@@ -4,8 +4,9 @@ using Abby.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace AbbyWeb.Pages.Admin.Categories
-{
+namespace AbbyWeb.Pages.Admin.Categories;
+
+    [BindProperties]
     public class DeleteModel : PageModel
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -36,4 +37,4 @@ namespace AbbyWeb.Pages.Admin.Categories
             return Page();
         }
     }
-}
+

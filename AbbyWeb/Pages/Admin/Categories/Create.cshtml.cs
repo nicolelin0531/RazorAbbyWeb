@@ -1,38 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Abby.DataAccess.Data;
 using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace AbbyWeb.Pages.Admin.Categories
+namespace AbbyWeb.Pages.Admin.Categories;
+
+[BindProperties]
+public class CreateModel : PageModel
 {
-    public class CreateModel : PageModel
+    private readonly IUnitOfWork _unitOfWork;
+
+    public Category Category { get; set; }
+
+
+    public CreateModel(IUnitOfWork unitOfWork)
     {
-        private readonly IUnitOfWork _unitOfWork;
-        public Category Category { get; set; }
+        _unitOfWork = unitOfWork;
+    }
+    public void OnGet()
+    {
+    }
 
-        public CreateModel(IUnitOfWork unitOfWork)    //DI
+    public async Task<IActionResult> OnPost()
+    {
+        if (Category.Name == Category.DisplayOrder.ToString())
         {
-            _unitOfWork = unitOfWork;
+            ModelState.AddModelError("Category.Name", "The DisplayOrder cannot exactly match the Name.");
         }
-        public void OnGet()
+        if (ModelState.IsValid)
         {
+            _unitOfWork.Category.Add(Category);
+            _unitOfWork.Save();
+            TempData["success"] = "Category created successfully";
+            return RedirectToPage("Index");
         }
-
-        public async Task<IActionResult> OnPost()
-        {
-            if(Category.Name == Category.DisplayOrder.ToString())
-            {
-                ModelState.AddModelError("Category.Name", "The DisplayOrder cannot exactly match the Name,");
-            }
-            if (ModelState.IsValid)   //check post isValid (blank => not valid)
-            {
-                _unitOfWork.Category.Add(Category);
-                _unitOfWork.Save();
-                TempData["success"] = "Category created successfully";
-                return RedirectToPage("Index");
-            }
-            return Page();
-        }
+        return Page();
     }
 }

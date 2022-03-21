@@ -1,43 +1,49 @@
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Abby.DataAccess.Data;
 using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace AbbyWeb.Pages.Admin.Categories
+namespace AbbyWeb.Pages.Admin.Categories;
+
+[BindProperties]
+public class EditModel : PageModel
 {
-    public class EditModel : PageModel
+    private readonly IUnitOfWork _unitOfWork;
+
+    public Category Category { get; set; }
+
+
+    public EditModel(IUnitOfWork unitOfWork)
     {
-        private readonly IUnitOfWork _unitOfWork;
-        public Category Category { get; set; }
+        _unitOfWork = unitOfWork;
+    }
 
-        public EditModel(IUnitOfWork unitOfWork)    //DI
-        {
-            _unitOfWork = unitOfWork;
-        }
-        public void OnGet(int id)
-        {
-            Category = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
-            //Category = _db.Category.FirstOrDefault(c => c.Id == id);
-            //Category = _db.Category.SingleOrDefault(c => c.Id == id);
-            //Category = _db.Category.Where(c => c.Id == id).FirstOrDefault();
-        }
+    public void OnGet(int id)
+    {
+        Category = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
+        //Category = _db.Category.FirstOrDefault(u=>u.Id==id);
+        //Category = _db.Category.SingleOrDefault(u=>u.Id==id);
+        //Category = _db.Category.Where(u => u.Id == id).FirstOrDefault();
+    }
 
-        public async Task<IActionResult> OnPost()
+    public async Task<IActionResult> OnPost()
+    {
+        if (Category.Name == Category.DisplayOrder.ToString())
         {
-            if (Category.Name == Category.DisplayOrder.ToString())
-            {
-                ModelState.AddModelError("Category.Name", "The DisplayOrder cannot exactly match the Name,");
-            }
-            if (ModelState.IsValid)   //check post isValid (blank => not valid)
-            {
-                _unitOfWork.Category.Update(Category);
-                _unitOfWork.Save();
-                TempData["success"] = "Category updated successfully";
-                return RedirectToPage("Index");
-            }
-            return Page();
+            ModelState.AddModelError("Category.Name", "The DisplayOrder cannot exactly match the Name.");
         }
+        if (ModelState.IsValid)
+        {
+            _unitOfWork.Category.Update(Category);
+            _unitOfWork.Save();
+            TempData["success"] = "Category updated successfully";
+            return RedirectToPage("Index");
+        }
+        return Page();
     }
 }

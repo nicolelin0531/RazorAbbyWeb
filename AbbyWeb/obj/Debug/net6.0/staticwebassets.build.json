@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f40xWSyC2fyGVDKWgy+EBltLcbmupeuVTiZvPAuOP9M=",
+  "Hash": "Li0b9dor23AL42bHBnZEkvu3QS8d5h3plt4RN8Ir3F0=",
   "Source": "AbbyWeb",
   "BasePath": "_content/AbbyWeb",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\c7874429-d6ee-424f-8c06-39d1bbda44e6.jpg",
+      "SourceId": "AbbyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\",
+      "BasePath": "_content/AbbyWeb",
+      "RelativePath": "images/menuItems/c7874429-d6ee-424f-8c06-39d1bbda44e6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\c7874429-d6ee-424f-8c06-39d1bbda44e6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\js\\menuItem.js",
+      "SourceId": "AbbyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\",
+      "BasePath": "_content/AbbyWeb",
+      "RelativePath": "js/menuItem.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\menuItem.js"
     },
     {
       "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\js\\site.js",

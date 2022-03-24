@@ -10,13 +10,15 @@ namespace AbbyWeb.Pages.Admin.MenuItems;
     public class UpsertModel : PageModel
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IWebHostEnvironment _hostEnvironment;
         public MenuItem MenuItem { get; set; }
         public IEnumerable<SelectListItem> CategoryList { get; set; }
         public IEnumerable<SelectListItem> FoodTypeList { get; set; }
     
-        public UpsertModel(IUnitOfWork unitOfWork)    //DI
+        public UpsertModel(IUnitOfWork unitOfWork, IWebHostEnvironment hostEnvironment)    //DI
         {
             _unitOfWork = unitOfWork;
+            _hostEnvironment = hostEnvironment;
             MenuItem = new();
         }
         public void OnGet()
@@ -37,14 +39,28 @@ namespace AbbyWeb.Pages.Admin.MenuItems;
 
         public async Task<IActionResult> OnPost()
         {
-            //if (ModelState.IsValid)   //check post isValid (blank => not valid)
-            //{
-            //    _unitOfWork.MenuItem.Add(MenuItem);
-            //    _unitOfWork.Save();
-            //    TempData["success"] = "MenuItem created successfully";
-            //    return RedirectToPage("Index");
-            //}
-            return Page();
+            string webRootPath = _hostEnvironment.WebRootPath;
+            var files = HttpContext.Request.Form.Files;
+        if(MenuItem.Id == 0)
+        {
+            //create
+            string filename_new = Guid.NewGuid().ToString();   //給名字 new filename, make sure all the file names are unique
+            var uploads = Path.Combine(webRootPath, @"images\menuItems");  //路徑抓www/images底下圖 find out folder that are upload
+            var extension = Path.GetExtension(files[0].FileName);  //make soure files have same extension
+
+            using(var fileStream = new FileStream(Path.Combine(uploads, filename_new + extension),FileMode.Create))
+            {
+                files[0].CopyTo(fileStream);
+            }
+            MenuItem.Image = @"\images\menuItems\" +filename_new + extension;
+            _unitOfWork.MenuItem.Add(MenuItem);
+            _unitOfWork.Save();
+        }
+        else
+        {
+
+        }
+            return RedirectToPage("./Index");
         }
     }
 

@@ -64,7 +64,33 @@ public class UpsertModel : PageModel
         }
         else
         {
+            //edit
+            var objFromDb = _unitOfWork.MenuItem.GetFirstOrDefault(u => u.Id == MenuItem.Id);
+            if(files.Count > 0)
+            {
+                string filename_new = Guid.NewGuid().ToString();   //給名字 new filename, make sure all the file names are unique
+                var uploads = Path.Combine(webRootPath, @"images\menuItems");  //路徑抓www/images底下圖 find out folder that are upload
+                var extension = Path.GetExtension(files[0].FileName);  //make soure files have same extension
 
+                //delete the old image
+                var oldImagePath = Path.Combine(webRootPath, objFromDb.Image.TrimStart('\\'));
+                if (System.IO.File.Exists(oldImagePath))
+                {
+                    System.IO.File.Delete(oldImagePath);
+                }
+                //new upload
+                using (var fileStream = new FileStream(Path.Combine(uploads, filename_new + extension),FileMode.Create))
+                {
+                    files[0].CopyTo(fileStream);
+                }
+                MenuItem.Image = @"\images\menuItems\" + filename_new + extension;
+            }
+            else
+            {
+                MenuItem.Image = objFromDb.Image;
+            }
+            _unitOfWork.MenuItem.Update(MenuItem);
+            _unitOfWork.Save();
         }
         return RedirectToPage("./Index");
     }

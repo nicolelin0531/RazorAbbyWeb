@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Li0b9dor23AL42bHBnZEkvu3QS8d5h3plt4RN8Ir3F0=",
+  "Hash": "wn0a5C9sJgDe12SITTBQ8JRmgDUFbpLo9h/7AAsNsUg=",
   "Source": "AbbyWeb",
   "BasePath": "_content/AbbyWeb",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\c7874429-d6ee-424f-8c06-39d1bbda44e6.jpg",
+      "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\cba5ab1b-97c4-4aae-8408-669bedf053a3.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/c7874429-d6ee-424f-8c06-39d1bbda44e6.jpg",
+      "RelativePath": "images/menuItems/cba5ab1b-97c4-4aae-8408-669bedf053a3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\c7874429-d6ee-424f-8c06-39d1bbda44e6.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\cba5ab1b-97c4-4aae-8408-669bedf053a3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\d377c363-dacb-49ba-b73d-0a9319aa9cab.jpg",
+      "SourceId": "AbbyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\",
+      "BasePath": "_content/AbbyWeb",
+      "RelativePath": "images/menuItems/d377c363-dacb-49ba-b73d-0a9319aa9cab.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\d377c363-dacb-49ba-b73d-0a9319aa9cab.jpg"
     },
     {
       "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\js\\menuItem.js",

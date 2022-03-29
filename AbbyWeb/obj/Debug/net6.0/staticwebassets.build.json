@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wn0a5C9sJgDe12SITTBQ8JRmgDUFbpLo9h/7AAsNsUg=",
+  "Hash": "bGWJIuEMSNDFTt1AlBHbrhcwLsmXfU8ljgO6yuAihhs=",
   "Source": "AbbyWeb",
   "BasePath": "_content/AbbyWeb",
   "Mode": "Default",
@@ -100,23 +100,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\cba5ab1b-97c4-4aae-8408-669bedf053a3.jpg",
-      "SourceId": "AbbyWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\",
-      "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/cba5ab1b-97c4-4aae-8408-669bedf053a3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\cba5ab1b-97c4-4aae-8408-669bedf053a3.jpg"
     },
     {
       "Identity": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\d377c363-dacb-49ba-b73d-0a9319aa9cab.jpg",

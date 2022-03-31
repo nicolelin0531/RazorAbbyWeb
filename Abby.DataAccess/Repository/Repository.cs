@@ -39,13 +39,13 @@ namespace Abby.DataAccess.Repository
             if (includeProperties != null)
             {
                 //abc,,xyv => abc xyz
-                foreach(var includeProperty in includeProperties.Split(
+                foreach (var includeProperty in includeProperties.Split(
                     new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
                     query = query.Include(includeProperty);
                 }
             }
-            if(orderby != null)
+            if (orderby != null)
             {
                 return orderby(query).ToList();
             }
@@ -55,9 +55,18 @@ namespace Abby.DataAccess.Repository
         public T GetFirstOrDefault(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
-            if(filter != null)
+            if (filter != null)
             {
                 query = query.Where(filter);
+            }
+            if (includeProperties != null)
+            {
+                //abc,,xyz -> abc xyz
+                foreach (var includeProperty in includeProperties.Split(
+                    new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
             }
             return query.FirstOrDefault();
         }

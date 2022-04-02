@@ -2304,6 +2304,9 @@
         }
       },
       "Abby.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "6.0.3"
+        },
         "runtime": {
           "Abby.Models.dll": {}
         }

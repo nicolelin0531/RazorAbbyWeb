@@ -3174,6 +3174,9 @@
       "Abby.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "6.0.3"
+        },
         "compile": {
           "bin/placeholder/Abby.Models.dll": {}
         },

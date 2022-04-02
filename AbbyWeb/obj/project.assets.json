@@ -3183,6 +3183,19 @@
         "runtime": {
           "bin/placeholder/Abby.Models.dll": {}
         }
+      },
+      "Abby.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Abby.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abby.Utility.dll": {}
+        }
       }
     }
   },
@@ -9783,11 +9796,17 @@
       "type": "project",
       "path": "../Abby.Models/Abby.Models.csproj",
       "msbuildProject": "../Abby.Models/Abby.Models.csproj"
+    },
+    "Abby.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Abby.Utility/Abby.Utility.csproj",
+      "msbuildProject": "../Abby.Utility/Abby.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Abby.DataAccess >= 1.0.0",
+      "Abby.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.3",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
@@ -9828,6 +9847,9 @@
           "projectReferences": {
             "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj": {
               "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj"
+            },
+            "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj": {
+              "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj"
             }
           }
         }

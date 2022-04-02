@@ -273,3 +273,5 @@ C:\Users\uchihayu\source\repos\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extension
 C:\Users\uchihayu\source\repos\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\uchihayu\source\repos\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\uchihayu\source\repos\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\uchihayu\source\repos\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.dll
+C:\Users\uchihayu\source\repos\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.pdb

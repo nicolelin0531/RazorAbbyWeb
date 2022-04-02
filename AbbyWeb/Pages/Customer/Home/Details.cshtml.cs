@@ -14,7 +14,6 @@ namespace AbbyWeb.Pages.Customer.Home
             _unitOfWork = unitOfWork;
         }
         public MenuItem MenuItem { get; set; }
-        [Range(1, 100, ErrorMessage = "Please select a count between 1 and 100")]
         public int Count { get; set; }
         public void OnGet(int id)
         {

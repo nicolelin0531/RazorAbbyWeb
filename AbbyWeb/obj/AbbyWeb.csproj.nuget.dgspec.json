@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\AbbyWeb.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\AbbyWeb\\AbbyWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.DataAccess\\Abby.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.DataAccess\\Abby.DataAccess.csproj",
         "projectName": "Abby.DataAccess",
-        "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\uchihayu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.DataAccess\\Abby.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\uchihayu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Models\\Abby.Models.csproj": {
-                "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Models\\Abby.Models.csproj"
+              "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Models\\Abby.Models.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Models\\Abby.Models.csproj"
               }
             }
           }
@@ -77,24 +78,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Models\\Abby.Models.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Models\\Abby.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Models\\Abby.Models.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Models\\Abby.Models.csproj",
         "projectName": "Abby.Models",
-        "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Models\\Abby.Models.csproj",
-        "packagesPath": "C:\\Users\\uchihayu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Models\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Models\\Abby.Models.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\uchihayu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,6 +122,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[6.0.3, )"
@@ -140,24 +146,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\Abby.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\Abby.Utility.csproj",
         "projectName": "Abby.Utility",
-        "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj",
-        "packagesPath": "C:\\Users\\uchihayu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\Abby.Utility.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\uchihayu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -203,24 +210,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\AbbyWeb.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\AbbyWeb\\AbbyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\AbbyWeb.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\AbbyWeb\\AbbyWeb.csproj",
         "projectName": "AbbyWeb",
-        "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\AbbyWeb.csproj",
-        "packagesPath": "C:\\Users\\uchihayu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\AbbyWeb\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\AbbyWeb\\AbbyWeb.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\AbbyWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\uchihayu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -234,11 +242,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj"
+              "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.DataAccess\\Abby.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.DataAccess\\Abby.DataAccess.csproj"
               },
-              "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj": {
-                "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj"
+              "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\Abby.Utility.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\Abby.Utility.csproj"
               }
             }
           }
@@ -294,7 +302,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

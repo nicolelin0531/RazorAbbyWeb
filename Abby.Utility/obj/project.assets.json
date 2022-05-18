@@ -718,23 +718,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\uchihayu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\Abby.Utility.csproj",
       "projectName": "Abby.Utility",
-      "projectPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\Abby.Utility.csproj",
-      "packagesPath": "C:\\Users\\uchihayu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\uchihayu\\source\\repos\\Abby\\Abby.Utility\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\Abby.Utility.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\RazorAbbyWeb\\Abby.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\uchihayu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -780,7 +781,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

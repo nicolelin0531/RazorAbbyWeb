@@ -10,3 +10,15 @@ C:\Users\uchihayu\source\repos\Abby\Abby.Models\obj\Debug\net6.0\Abby.Models.dll
 C:\Users\uchihayu\source\repos\Abby\Abby.Models\obj\Debug\net6.0\refint\Abby.Models.dll
 C:\Users\uchihayu\source\repos\Abby\Abby.Models\obj\Debug\net6.0\Abby.Models.pdb
 C:\Users\uchihayu\source\repos\Abby\Abby.Models\obj\Debug\net6.0\ref\Abby.Models.dll
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\bin\Debug\net6.0\Abby.Models.deps.json
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\bin\Debug\net6.0\Abby.Models.dll
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\bin\Debug\net6.0\Abby.Models.pdb
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\Abby.Models.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\Abby.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\Abby.Models.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\Abby.Models.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\Abby.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\Abby.Models.dll
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\refint\Abby.Models.dll
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\Abby.Models.pdb
+C:\Users\user\Documents\GitHub\RazorAbbyWeb\Abby.Models\obj\Debug\net6.0\ref\Abby.Models.dll

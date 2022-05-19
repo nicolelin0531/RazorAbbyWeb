@@ -33,9 +33,20 @@ public class DetailsModel : PageModel
     {
         if (ModelState.IsValid)
         {
-            _unitOfWork.ShoppingCart.Add(ShoppingCart);
-            _unitOfWork.Save();
+            ShoppingCart shoppingCartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(
+                filter: u => u.ApplicationUserId == ShoppingCart.ApplicationUserId && 
+                u.MenuItemId == ShoppingCart.MenuItemId);
+
+            if(shoppingCartFromDb == null) {
+                _unitOfWork.ShoppingCart.Add(ShoppingCart);
+                _unitOfWork.Save();
+            }
+            else
+            {
+                _unitOfWork.ShoppingCart.IncrementCount(shoppingCartFromDb, ShoppingCart.Count)
+            }
             return RedirectToPage("Index");
+
         }
         return Page();
     }

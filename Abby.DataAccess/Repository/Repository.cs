@@ -19,7 +19,7 @@ namespace Abby.DataAccess.Repository
         {
             _db = db;
             //Foodtype,Category  (map and load foodType and Category based on the ID that are populated)
-            //_db.MenuItem.Include(u => u.FoodType).Include(u => u.Category);
+            //_db.ShoppingCart.Include(u => u.MenuItem).ThenInclude(u => u.Category);
             //_db.MenuItem.OrderBy(u => u.Name);
             this.dbSet = db.Set<T>();
         }

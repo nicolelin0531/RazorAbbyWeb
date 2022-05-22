@@ -43,7 +43,7 @@ public class DetailsModel : PageModel
             }
             else
             {
-                _unitOfWork.ShoppingCart.IncrementCount(shoppingCartFromDb, ShoppingCart.Count)
+                _unitOfWork.ShoppingCart.IncrementCount(shoppingCartFromDb, ShoppingCart.Count);
             }
             return RedirectToPage("Index");
 

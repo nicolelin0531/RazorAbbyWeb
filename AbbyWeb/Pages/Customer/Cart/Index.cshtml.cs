@@ -11,11 +11,13 @@ namespace AbbyWeb.Pages.Customer.Cart
     public class IndexModel : PageModel
     {
         public IEnumerable<ShoppingCart> ShoppingCartList { get; set; }
+        public double CartTotal { get; set; }
         private readonly IUnitOfWork _unitOfWork;
 
         public IndexModel(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
+            CartTotal = 0;
         }
         public void OnGet()
         {
@@ -25,6 +27,11 @@ namespace AbbyWeb.Pages.Customer.Cart
             {
                 ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(filter: u => u.ApplicationUserId == claim.Value,
                     includeProperties:"MenuItem,MenuItem.FoodType,MenuItem.Category");
+
+                foreach(var cartItem in ShoppingCartList)
+                {
+                    CartTotal += (cartItem.MenuItem.Price * cartItem.Count);
+                }
             }
         }
     }

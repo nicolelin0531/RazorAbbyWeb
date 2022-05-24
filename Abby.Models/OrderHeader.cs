@@ -33,8 +33,10 @@ namespace Abby.Models
         public string Status { get; set; }
         public string? Comments { get; set; }
         public string? TransactionId { get; set; }
+        [Required]
         [Display(Name = "Pickup Name")]
         public string PickupName { get; set; }
+        [Required]
         [Display(Name = "Phone Number")]
         public string PhoneNumber { get; set; }
     }

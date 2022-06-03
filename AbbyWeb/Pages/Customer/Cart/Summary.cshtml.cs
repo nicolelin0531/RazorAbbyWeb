@@ -71,7 +71,6 @@ namespace AbbyWeb.Pages.Customer.Cart
                         Count = item.Count
                     };
                     _unitOfWork.OrderDetail.Add(orderDetails);
-                    _unitOfWork.Save();
                 }
                 _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartList);
                 _unitOfWork.Save();
